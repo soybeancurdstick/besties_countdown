@@ -1,0 +1,26 @@
+{
+  "name": "count-down-widget",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaylyn Lim",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^41.7.1",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  },
+  "build": {
+    "appId": "countdownwidget",
+    "productName": "Noddle Countdown",
+    "win": {
+      "target": "portable"
+    }
+  }
+}

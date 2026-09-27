@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days Until Bestie's Back!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="widget">
+        <div class="until" id="countDown" >
+            <button id="close-button">×</button>
+            <div class="until_component">
+                <div class="until_numeric until_numeric-days">
+                    00
+                </div>
+                <div class="until_unit">Days</div>
+            </div>
+            <div class="until_component">
+                <div class="until_numeric until_numeric-hours">
+                    00
+                </div>
+                <div class="until_unit">Hours</div>
+            </div>
+            <div class="until_component">
+                <div class="until_numeric until_numeric-minutes">
+                    00
+                </div>
+                <div class="until_unit">Minutes</div>
+            </div>
+            <div class="until_component">
+                <div class="until_numeric until_numeric-seconds">
+                    00
+                </div>
+                <div class="until_unit">Seconds</div>
+            </div>
+            <div class="until_event">Days Until Bestie is Back!</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/duration.min.js"></script>
+    <script src="./node_modules/dayjs/dayjs.min.js"></script>
+    <script src="./countDownLogic.js"></script>
+</body>
+</html>

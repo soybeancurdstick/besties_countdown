@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.until {
+    position: relative;
+    margin: 0px auto;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    padding: 1em;
+    background: #FF8C00;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rbga(0, 0, 0, 0.3);
+    font-family: sans-serif;
+    
+}
+
+.until_component {
+    text-align: center;
+    background-color: #FFF5EE;
+    border-radius: 5px;
+
+}
+
+.until_numeric {
+    color: #333333;
+    padding: 0.5em 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.until_unit {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+.until_event {
+    grid-column: span 4;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.widget {
+    -webkit-app-region: drag;
+}
+
+#close-button {
+    position: absolute;
+    top: 0px;
+    right: 2px;
+
+    width: 20px;
+    height: 20px;
+
+    border: none;
+    background: transparent;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    -webkit-app-region: no-drag;
+}
