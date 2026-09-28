@@ -14,7 +14,7 @@ function createWindow() {
 
         resizable: false,
 
-        alwaysOnTop: true,
+        alwaysOnTop: false,
 
         webPreferences: {
 
