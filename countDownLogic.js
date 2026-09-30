@@ -41,7 +41,7 @@ function activateCountdown(element, dateString) {
     }, 250);
 }
 
-activateCountdown(document.getElementById("countDown"), "2026-11-19"); 
+activateCountdown(document.getElementById("countDown"), "2026-11-21"); 
 
 document
     .querySelector("#close-button")
